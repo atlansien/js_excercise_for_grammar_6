@@ -45,13 +45,15 @@ const discriminantNumber = message => {
   alert(message);
 };
 
-kadai_3("a", discriminantNumber);
-
-kadai_3(1, discriminantNumber);
+kadai_3(20, discriminantNumber);
 
 kadai_3(10, discriminantNumber);
 
-kadai_3(20, discriminantNumber);
+kadai_3(1, discriminantNumber);
+
+kadai_3("1", discriminantNumber);
+
+kadai_3(true, discriminantNumber); // 数字未入力が二連続で出て来る理由がわからなかったのでanswerを直接参考にして書きました
 
 // 課題4: 以下の条件を満たす即時関数を作る
 //   - 2つの引数を受け取る
@@ -60,5 +62,5 @@ kadai_3(20, discriminantNumber);
 //   - 処理内容:
 //     - 第1引数のx, 第2引数のyを使って足し算した結果(「x + y」の結果)をconsole.logで出力する。
 ((x, y) => {
-  console.log(x + "+" + y + "=", x + y);
-})(2, 3);
+  console.log("課題4の結果: ", x + y);
+})(1, 2);
