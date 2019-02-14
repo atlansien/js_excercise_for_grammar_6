@@ -60,5 +60,5 @@ kadai_3(20, discriminantNumber);
 //   - 処理内容:
 //     - 第1引数のx, 第2引数のyを使って足し算した結果(「x + y」の結果)をconsole.logで出力する。
 ((x, y) => {
-  console.log(x + "+" + y + "=" + x + y);
+  console.log(x + "+" + y + "=", x + y);
 })(2, 3);
